@@ -14,7 +14,6 @@ public class ProductDAOImpl implements ProductDAO {
 
     private final ProductRepository productRepository;
 
-
     @Autowired
     public ProductDAOImpl(ProductRepository productRepository) {
         this.productRepository = productRepository;
